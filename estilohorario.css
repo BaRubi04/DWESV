@@ -1,0 +1,29 @@
+body{
+    background-color: bisque;
+}
+table{
+    border-collapse:collapse;
+    margin:auto;
+    margin-top:50px;
+}
+h1,td{
+    text-align: center;
+}
+td,th{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+}
+th{
+    background-color: lightgray;
+}
+td{
+    background-color: white;
+}
+.dias{
+    background-color: rgb(216, 246, 253);
+}
+#vacio{
+    background-color: inherit;
+    border:0;
+}
