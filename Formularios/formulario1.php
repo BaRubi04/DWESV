@@ -6,7 +6,7 @@
         <title>Formulario Profesores 1DAW</title>
     </head>
     <body>
-        <form action="formulario1.php" method="GET"> 
+        <form action="resultados1.php" method="GET"> 
             
             <select name="profesores">
                 <option value="1">Isa</option>    
@@ -26,11 +26,5 @@
 
             <input type="submit">
         </form>
-        <?php
-            /*if(isset($_GET["asignatura"])){
-                echo 'asignatura : '.$_GET["asignatura"].'<br>';
-                echo 'asignatura2 : '.$_GET["asignatura2"];
-            }*/
-        ?>
     </body>
 </html>
