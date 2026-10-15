@@ -1,0 +1,49 @@
+[09-Oct-2026 09:59:10 UTC] PHP Parse error:  syntax error, unexpected variable "$texto1" in /home/user1daw/public_html/24/DWES/enreosIniciales/prueba3.php on line 14
+[09-Oct-2026 09:59:10 UTC] PHP Warning:  include(mequetrefe.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[09-Oct-2026 09:59:10 UTC] PHP Warning:  include(): Failed opening 'mequetrefe.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[09-Oct-2026 09:59:10 UTC] PHP Warning:  Undefined variable $texto1 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 13
+[09-Oct-2026 09:59:10 UTC] PHP Warning:  Undefined variable $texto2 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 14
+[09-Oct-2026 09:59:10 UTC] PHP Warning:  Undefined array key "maximoFactorial" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivo.php on line 17
+[09-Oct-2026 09:59:10 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ";", expecting "," or ";" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivoConFormulario.php on line 24
+[09-Oct-2026 09:59:10 UTC] PHP Parse error:  syntax error, unexpected variable "$texto1" in /home/user1daw/public_html/24/DWES/enreosIniciales/prueba3.php on line 14
+[09-Oct-2026 09:59:11 UTC] PHP Warning:  include(mequetrefe.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[09-Oct-2026 09:59:11 UTC] PHP Warning:  include(): Failed opening 'mequetrefe.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[09-Oct-2026 09:59:11 UTC] PHP Warning:  Undefined variable $texto1 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 13
+[09-Oct-2026 09:59:11 UTC] PHP Warning:  Undefined variable $texto2 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 14
+[09-Oct-2026 09:59:11 UTC] PHP Warning:  Undefined array key "maximoFactorial" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivo.php on line 17
+[09-Oct-2026 09:59:11 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ";", expecting "," or ";" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivoConFormulario.php on line 24
+[11-Oct-2026 02:26:50 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ";", expecting "," or ";" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivoConFormulario.php on line 24
+[11-Oct-2026 02:26:51 UTC] PHP Warning:  Undefined array key "maximoFactorial" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivo.php on line 17
+[11-Oct-2026 02:26:53 UTC] PHP Parse error:  syntax error, unexpected variable "$texto1" in /home/user1daw/public_html/24/DWES/enreosIniciales/prueba3.php on line 14
+[11-Oct-2026 02:26:55 UTC] PHP Warning:  include(mequetrefe.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[11-Oct-2026 02:26:55 UTC] PHP Warning:  include(): Failed opening 'mequetrefe.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[11-Oct-2026 02:26:55 UTC] PHP Warning:  Undefined variable $texto1 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 13
+[11-Oct-2026 02:26:55 UTC] PHP Warning:  Undefined variable $texto2 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 14
+[11-Oct-2026 14:15:23 UTC] PHP Parse error:  syntax error, unexpected variable "$texto1" in /home/user1daw/public_html/24/DWES/enreosIniciales/prueba3.php on line 14
+[11-Oct-2026 14:15:23 UTC] PHP Warning:  include(mequetrefe.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[11-Oct-2026 14:15:23 UTC] PHP Warning:  include(): Failed opening 'mequetrefe.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[11-Oct-2026 14:15:23 UTC] PHP Warning:  Undefined variable $texto1 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 13
+[11-Oct-2026 14:15:23 UTC] PHP Warning:  Undefined variable $texto2 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 14
+[11-Oct-2026 14:15:24 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ";", expecting "," or ";" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivoConFormulario.php on line 24
+[11-Oct-2026 14:15:24 UTC] PHP Warning:  Undefined array key "maximoFactorial" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivo.php on line 17
+[11-Oct-2026 14:15:24 UTC] PHP Parse error:  syntax error, unexpected variable "$texto1" in /home/user1daw/public_html/24/DWES/enreosIniciales/prueba3.php on line 14
+[11-Oct-2026 14:15:24 UTC] PHP Warning:  include(mequetrefe.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[11-Oct-2026 14:15:24 UTC] PHP Warning:  include(): Failed opening 'mequetrefe.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[11-Oct-2026 14:15:24 UTC] PHP Warning:  Undefined variable $texto1 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 13
+[11-Oct-2026 14:15:24 UTC] PHP Warning:  Undefined variable $texto2 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 14
+[11-Oct-2026 14:15:25 UTC] PHP Warning:  Undefined array key "maximoFactorial" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivo.php on line 17
+[11-Oct-2026 14:15:25 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ";", expecting "," or ";" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivoConFormulario.php on line 24
+[12-Oct-2026 09:58:53 UTC] PHP Parse error:  syntax error, unexpected variable "$texto1" in /home/user1daw/public_html/24/DWES/enreosIniciales/prueba3.php on line 14
+[12-Oct-2026 09:58:53 UTC] PHP Parse error:  syntax error, unexpected variable "$texto1" in /home/user1daw/public_html/24/DWES/enreosIniciales/prueba3.php on line 14
+[12-Oct-2026 09:58:53 UTC] PHP Warning:  include(mequetrefe.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[12-Oct-2026 09:58:53 UTC] PHP Warning:  include(): Failed opening 'mequetrefe.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[12-Oct-2026 09:58:53 UTC] PHP Warning:  Undefined variable $texto1 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 13
+[12-Oct-2026 09:58:53 UTC] PHP Warning:  Undefined variable $texto2 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 14
+[12-Oct-2026 09:58:53 UTC] PHP Warning:  Undefined array key "maximoFactorial" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivo.php on line 17
+[12-Oct-2026 09:58:53 UTC] PHP Warning:  include(mequetrefe.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[12-Oct-2026 09:58:53 UTC] PHP Warning:  include(): Failed opening 'mequetrefe.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 2
+[12-Oct-2026 09:58:53 UTC] PHP Warning:  Undefined variable $texto1 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 13
+[12-Oct-2026 09:58:53 UTC] PHP Warning:  Undefined variable $texto2 in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtml.php on line 14
+[12-Oct-2026 09:58:53 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ";", expecting "," or ";" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivoConFormulario.php on line 24
+[12-Oct-2026 09:58:53 UTC] PHP Warning:  Undefined array key "maximoFactorial" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivo.php on line 17
+[12-Oct-2026 09:58:54 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ";", expecting "," or ";" in /home/user1daw/public_html/24/DWES/enreosIniciales/pruebahtmlFactorialRecursivoConFormulario.php on line 24

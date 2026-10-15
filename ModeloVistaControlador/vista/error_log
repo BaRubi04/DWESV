@@ -1,0 +1,57 @@
+[09-Oct-2026 09:59:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', 'Tangorangorealm...', 'Pruebas')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_listado.php(16): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[09-Oct-2026 09:59:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', 'Tangorangorealm...', 'Pruebas')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_listado.php(16): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[11-Oct-2026 02:26:40 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 14
+[11-Oct-2026 02:26:40 UTC] PHP Warning:  Undefined array key "nombrePrevio" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 15
+[11-Oct-2026 02:26:40 UTC] PHP Warning:  Undefined array key "colorPrevio" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 16
+[11-Oct-2026 02:26:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_listado.php(16): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[11-Oct-2026 14:15:51 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 14
+[11-Oct-2026 14:15:51 UTC] PHP Warning:  Undefined array key "nombrePrevio" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 15
+[11-Oct-2026 14:15:51 UTC] PHP Warning:  Undefined array key "colorPrevio" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 16
+[11-Oct-2026 14:15:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_listado.php(16): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[11-Oct-2026 14:15:52 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 14
+[11-Oct-2026 14:15:52 UTC] PHP Warning:  Undefined array key "nombrePrevio" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 15
+[11-Oct-2026 14:15:52 UTC] PHP Warning:  Undefined array key "colorPrevio" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 16
+[11-Oct-2026 14:15:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_listado.php(16): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[12-Oct-2026 09:58:54 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 14
+[12-Oct-2026 09:58:54 UTC] PHP Warning:  Undefined array key "nombrePrevio" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 15
+[12-Oct-2026 09:58:54 UTC] PHP Warning:  Undefined array key "colorPrevio" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 16
+[12-Oct-2026 09:58:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_listado.php(16): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[12-Oct-2026 09:58:59 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 14
+[12-Oct-2026 09:58:59 UTC] PHP Warning:  Undefined array key "nombrePrevio" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 15
+[12-Oct-2026 09:58:59 UTC] PHP Warning:  Undefined array key "colorPrevio" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_formulario_modificar.php on line 16
+[12-Oct-2026 09:58:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/vista/v_asignatura_listado.php(16): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9

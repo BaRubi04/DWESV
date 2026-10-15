@@ -1,0 +1,110 @@
+[09-Oct-2026 09:59:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php on line 3
+[09-Oct-2026 09:59:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php on line 3
+[09-Oct-2026 09:59:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php on line 3
+[09-Oct-2026 09:59:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php on line 3
+[09-Oct-2026 09:59:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php on line 3
+[09-Oct-2026 09:59:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php on line 3
+[11-Oct-2026 02:26:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php on line 3
+[11-Oct-2026 02:26:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php on line 3
+[11-Oct-2026 02:26:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php on line 3
+[11-Oct-2026 14:15:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php on line 3
+[11-Oct-2026 14:15:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php on line 3
+[11-Oct-2026 14:15:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php on line 3
+[11-Oct-2026 14:15:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php on line 3
+[11-Oct-2026 14:15:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php on line 3
+[11-Oct-2026 14:15:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php on line 3
+[12-Oct-2026 02:48:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php on line 3
+[12-Oct-2026 09:58:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php on line 3
+[12-Oct-2026 09:58:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php on line 3
+[12-Oct-2026 09:58:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilas.php on line 3
+[12-Oct-2026 09:58:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php on line 3
+[12-Oct-2026 09:58:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/SacarFilasBucle.php on line 3
+[12-Oct-2026 09:58:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php:3
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php(3): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/TesteoBD/filas for each.php on line 3
