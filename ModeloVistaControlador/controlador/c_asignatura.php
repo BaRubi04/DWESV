@@ -24,7 +24,7 @@ class Asignatura{
     }
 
     public function anadir($nombre,$color) {
-        $consulta = "insert into asignatura(nombre,color) values ('$nombre','$color');";
+        $consulta = "insert into asignatura(nombre,color) values ('.$nombre.','.$color.');";
         $resultado = $this->conexion->query($consulta);
         if($resultado)
             return 'positivo';
