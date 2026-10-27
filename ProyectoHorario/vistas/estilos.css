@@ -56,3 +56,22 @@ label{
 #textoEmpujado{
     margin: 0 0 0.5em 27%;
 }
+#desplegableCursos{
+    margin:1em 0 1em 40%;
+    border-radius:10px;
+    border:0;
+    background-color:rgba(240, 248, 255, 0.534);
+    font-size: 1.5em;
+    padding:1%;
+}
+#desplegableCursos:hover{
+    transition: 0.5s;
+    cursor:grab;
+    background-color:rgb(240, 248, 255);
+    font-size: 1.6em;
+    padding:1.1%;
+}
+#desplegableCursos:focus{/* focus es el elemento que tienes seleccionado */
+    transition:0;
+    background-color:rgb(255, 255, 255);
+}

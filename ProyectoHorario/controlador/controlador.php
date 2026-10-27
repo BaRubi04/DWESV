@@ -37,8 +37,8 @@ class Horario{
                 echo '<option value="'.$fila['idAsignatura'].'">'.$fila['nombre'].'</option>';
     }
 
-    public function insertarClasesDia(){
-        $consulta = "insert into asignatura(nombre,color) values ('.$nombre.','.$color.');";
+    public function insertarClasesDia($dia,$hora,$idCurso,$idProfesor,$idAsignatura){
+        $consulta = "insert into horario values ('.$dia.','.$hora.','.$idCurso.','.$idProfesor.','.$idAsignatura.');";
         $resultado = $this->conexion->query($consulta);
         if($resultado)
             return 'positivo';

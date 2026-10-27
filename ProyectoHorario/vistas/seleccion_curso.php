@@ -18,7 +18,7 @@
     </nav>
     <h1>Selecciona el curso: </h1>
     <form action="alta_horario_lunes.php" method="POST">
-        <select name="curso">
+        <select id="desplegableCursos" name="curso">
             <?php 
                 $objHorario->listadoCursos();
             ?>
