@@ -1,0 +1,15 @@
+[26-Oct-2026 19:48:34 UTC] PHP Warning:  require(../otros/configdb.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 2
+[26-Oct-2026 19:48:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../otros/configdb.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 2
+[26-Oct-2026 19:48:36 UTC] PHP Warning:  require(../otros/configdb.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 2
+[26-Oct-2026 19:48:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../otros/configdb.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 2
+[27-Oct-2026 02:38:26 UTC] PHP Warning:  require(../otros/configdb.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 2
+[27-Oct-2026 02:38:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../otros/configdb.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 2
