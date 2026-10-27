@@ -38,8 +38,15 @@ class Horario{
     }
 
     public function insertarClasesDia($dia,$idCurso,$idAsignatura){
+        //A dia no le pongo los dos puntos porque lo que le venga ya será un caracter
         $consulta = "insert into horario values 
-                        ('.$dia.','.$hora.','.$idCurso.','.$idProfesor.','.$idAsignatura.'),
+                        ('$dia',1,'.$idCurso.','.$idProfesor.','.$idAsignatura.'),
+                        ('$dia',2,'.$idCurso.','.$idProfesor.','.$idAsignatura.'),
+                        ('$dia',3,'.$idCurso.','.$idProfesor.','.$idAsignatura.'),
+                        ('$dia',4,'.$idCurso.','.$idProfesor.','.$idAsignatura.'),
+                        ('$dia',5,'.$idCurso.','.$idProfesor.','.$idAsignatura.'),
+                        ('$dia',6,'.$idCurso.','.$idProfesor.','.$idAsignatura.'),
+                        ('$dia',7,'.$idCurso.','.$idProfesor.','.$idAsignatura.')
                         ;";
         $resultado = $this->conexion->query($consulta);
         if($resultado)
