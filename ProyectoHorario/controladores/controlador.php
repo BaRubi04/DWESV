@@ -3,7 +3,7 @@ require '../otros/configdb.php';
 class Horario{
     
     public $conexion;
-
+    public $arrayDias=['Lunes','Martes','Miércoles','Jueves','Viernes'];
     function __construct(){
         global $SERVIDOR, $USUARIO, $CONTRASEÑA, $BASEDEDATOS;
         $this->conexion = new mysqli($SERVIDOR, $USUARIO, $CONTRASEÑA, $BASEDEDATOS);

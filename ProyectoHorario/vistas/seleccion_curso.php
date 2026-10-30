@@ -1,5 +1,5 @@
 <?php
-    require '../controlador/controlador.php';
+    require '../controladores/controlador.php';
     $objHorario = new Horario();
 ?>
 <!DOCTYPE html>
@@ -17,12 +17,14 @@
         <a>Horario</a>
     </nav>
     <h1>Selecciona el curso: </h1>
-    <form action="alta_horario_lunes.php" method="POST">
+    <form action="alta_horario.php" method="GET">
         <select id="desplegableCursos" name="curso">
             <?php 
-                $objHorario->listadoCursos();
+                $objHorario->listadoCursos();//meter echos con bucles aquí, en la vista
+                echo '<input type="text" name="iteradorDias" value="0" hidden>';
             ?>
         </select><br>
+        <br>
         <input type="submit">
     </form>
 </body>
