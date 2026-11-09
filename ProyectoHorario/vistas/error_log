@@ -1,0 +1,304 @@
+[28-Oct-2026 15:33:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario_miercoles.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 16:54:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario_miercoles.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 16:54:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario_viernes.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 16:54:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 16:54:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario_martes.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 16:54:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario_lunes.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 16:54:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario_jueves.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 17:51:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 18:12:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario_viernes.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 18:14:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 18:41:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 18:56:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario_lunes.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[28-Oct-2026 22:39:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario_martes.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[29-Oct-2026 02:00:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario_jueves.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[29-Oct-2026 02:04:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[29-Oct-2026 03:56:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario_lunes.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[30-Oct-2026 11:15:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controlador/controlador.php on line 9
+[31-Oct-2026 09:22:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 02:13:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 02:13:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 02:13:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 02:32:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 02:32:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 02:48:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 02:48:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 03:11:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 12:39:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 12:39:39 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 2
+[02-Nov-2026 12:39:39 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 3
+[02-Nov-2026 12:39:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 15:52:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 15:52:59 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 2
+[02-Nov-2026 15:52:59 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 3
+[02-Nov-2026 15:52:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 15:56:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[02-Nov-2026 15:56:08 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 2
+[02-Nov-2026 15:56:08 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 3
+[02-Nov-2026 15:56:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[03-Nov-2026 11:32:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[03-Nov-2026 11:32:14 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 2
+[03-Nov-2026 11:32:14 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 3
+[03-Nov-2026 11:32:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[04-Nov-2026 17:44:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[04-Nov-2026 17:44:04 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 2
+[04-Nov-2026 17:44:04 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 3
+[04-Nov-2026 17:44:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[04-Nov-2026 17:44:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[04-Nov-2026 17:44:08 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 2
+[04-Nov-2026 17:44:08 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 3
+[04-Nov-2026 17:44:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horarios')
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[07-Nov-2026 13:10:05 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 2
+[07-Nov-2026 13:10:05 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 3
+[07-Nov-2026 13:10:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct(NULL, NULL, NULL, NULL)
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[07-Nov-2026 14:19:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct(NULL, NULL, NULL, NULL)
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[08-Nov-2026 01:37:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct(NULL, NULL, NULL, NULL)
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[08-Nov-2026 02:57:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct(NULL, NULL, NULL, NULL)
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[08-Nov-2026 02:57:28 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 2
+[08-Nov-2026 02:57:28 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 3
+[08-Nov-2026 02:57:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct(NULL, NULL, NULL, NULL)
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[08-Nov-2026 02:57:28 UTC] PHP Warning:  Undefined variable $datos in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/v_seleccion_curso.php on line 19
+[08-Nov-2026 02:57:28 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/v_seleccion_curso.php on line 19
+[08-Nov-2026 02:57:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct(NULL, NULL, NULL, NULL)
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[08-Nov-2026 02:57:31 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 2
+[08-Nov-2026 02:57:31 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 3
+[08-Nov-2026 02:57:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct(NULL, NULL, NULL, NULL)
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/seleccion_curso.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[08-Nov-2026 02:57:31 UTC] PHP Warning:  Undefined variable $datos in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/v_seleccion_curso.php on line 19
+[08-Nov-2026 02:57:31 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/v_seleccion_curso.php on line 19
+[08-Nov-2026 16:43:26 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 2
+[08-Nov-2026 16:43:26 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/resolucion_alta_horario.php on line 3
+[08-Nov-2026 16:43:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php(9): mysqli->__construct(NULL, NULL, NULL, NULL)
+#1 /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/alta_horario.php(3): Horario->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/controlador.php on line 9
+[09-Nov-2026 05:42:42 UTC] PHP Warning:  Undefined variable $datos in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/v_seleccion_curso.php on line 19
+[09-Nov-2026 05:42:42 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/v_seleccion_curso.php on line 19
+[09-Nov-2026 05:42:49 UTC] PHP Warning:  Undefined variable $datos in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/v_seleccion_curso.php on line 19
+[09-Nov-2026 05:42:49 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/v_seleccion_curso.php on line 19

@@ -1,0 +1,34 @@
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined variable $datos in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_seleccion_curso.php on line 19
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_seleccion_curso.php on line 19
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 16
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 16
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined variable $fila in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 18
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 18
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 19
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 21
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined variable $objHorario in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 21
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Attempt to read property "arrayDias" on null in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 21
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 21
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 22
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined variable $objHorario in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 27
+[09-Nov-2026 05:42:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function listadoAsignaturas() on null in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 27
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Undefined variable $datos in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_seleccion_curso.php on line 19
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_seleccion_curso.php on line 19
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 16
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 16
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Undefined variable $fila in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 18
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 18
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 19
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 21
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Undefined variable $objHorario in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 21
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Attempt to read property "arrayDias" on null in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 21
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 21
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 22
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Undefined variable $objHorario in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 27
+[09-Nov-2026 05:42:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function listadoAsignaturas() on null in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/horario/v_alta_horario.php on line 27

@@ -141,3 +141,323 @@ Stack trace:
   thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
 [12-Oct-2026 09:58:58 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir copy.php on line 2
 [12-Oct-2026 09:58:58 UTC] PHP Warning:  Undefined variable $estado in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_borrar.php on line 2
+[30-Oct-2026 13:56:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function borrar() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php on line 3
+[30-Oct-2026 14:13:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[30-Oct-2026 19:35:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 01:49:36 UTC] PHP Warning:  Undefined array key "opcion" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 2
+[02-Nov-2026 01:49:36 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[02-Nov-2026 01:49:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php:7) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[02-Nov-2026 02:40:48 UTC] PHP Warning:  Undefined array key "opcion" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 2
+[02-Nov-2026 02:40:48 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[02-Nov-2026 02:40:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php:7) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[02-Nov-2026 08:43:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 09:02:46 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir.php on line 2
+[02-Nov-2026 09:08:38 UTC] PHP Warning:  Undefined variable $estado in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_borrar.php on line 2
+[02-Nov-2026 09:52:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 12:39:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 12:39:03 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir copy.php on line 2
+[02-Nov-2026 12:39:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/borrar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 12:39:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function borrar() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php on line 3
+[02-Nov-2026 12:39:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function anadir() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php on line 3
+[02-Nov-2026 12:39:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 12:39:04 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir.php on line 2
+[02-Nov-2026 12:39:05 UTC] PHP Warning:  Undefined variable $estado in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_borrar.php on line 2
+[02-Nov-2026 12:39:07 UTC] PHP Warning:  Undefined array key "opcion" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 2
+[02-Nov-2026 12:39:07 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[02-Nov-2026 12:39:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php:7) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[02-Nov-2026 12:39:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 12:39:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 13:51:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function anadir() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php on line 3
+[02-Nov-2026 14:12:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function borrar() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php on line 3
+[02-Nov-2026 14:13:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 14:23:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 15:52:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 15:52:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/borrar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 15:52:56 UTC] PHP Warning:  Undefined array key "opcion" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 2
+[02-Nov-2026 15:52:56 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[02-Nov-2026 15:52:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php:7) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[02-Nov-2026 15:52:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function anadir() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php on line 3
+[02-Nov-2026 15:52:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 15:52:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 15:52:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 15:52:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function borrar() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php on line 3
+[02-Nov-2026 15:52:57 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir.php on line 2
+[02-Nov-2026 15:52:57 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir copy.php on line 2
+[02-Nov-2026 15:52:57 UTC] PHP Warning:  Undefined variable $estado in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_borrar.php on line 2
+[02-Nov-2026 15:56:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 15:56:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/borrar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 15:56:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 15:56:05 UTC] PHP Warning:  Undefined array key "opcion" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 2
+[02-Nov-2026 15:56:05 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[02-Nov-2026 15:56:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php:7) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[02-Nov-2026 15:56:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function anadir() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php on line 3
+[02-Nov-2026 15:56:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 15:56:06 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir.php on line 2
+[02-Nov-2026 15:56:06 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir copy.php on line 2
+[02-Nov-2026 15:56:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function borrar() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php on line 3
+[02-Nov-2026 15:56:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[02-Nov-2026 15:56:07 UTC] PHP Warning:  Undefined variable $estado in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_borrar.php on line 2
+[03-Nov-2026 11:32:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[03-Nov-2026 11:32:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/borrar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[03-Nov-2026 11:32:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function anadir() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php on line 3
+[03-Nov-2026 11:32:12 UTC] PHP Warning:  Undefined array key "opcion" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 2
+[03-Nov-2026 11:32:12 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[03-Nov-2026 11:32:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php:7) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[03-Nov-2026 11:32:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[03-Nov-2026 11:32:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[03-Nov-2026 11:32:12 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir.php on line 2
+[03-Nov-2026 11:32:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[03-Nov-2026 11:32:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function borrar() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php on line 3
+[03-Nov-2026 11:32:13 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir copy.php on line 2
+[03-Nov-2026 11:32:13 UTC] PHP Warning:  Undefined variable $estado in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_borrar.php on line 2
+[04-Nov-2026 17:44:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/borrar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[04-Nov-2026 17:44:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[04-Nov-2026 17:44:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function anadir() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php on line 3
+[04-Nov-2026 17:44:05 UTC] PHP Warning:  Undefined array key "opcion" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 2
+[04-Nov-2026 17:44:05 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[04-Nov-2026 17:44:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php:7) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[04-Nov-2026 17:44:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[04-Nov-2026 17:44:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[04-Nov-2026 17:44:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function borrar() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php on line 3
+[04-Nov-2026 17:44:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/borrar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[04-Nov-2026 17:44:06 UTC] PHP Warning:  Undefined array key "opcion" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 2
+[04-Nov-2026 17:44:06 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir.php on line 2
+[04-Nov-2026 17:44:06 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[04-Nov-2026 17:44:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php:7) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/control.php on line 8
+[04-Nov-2026 17:44:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function anadir() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion.php on line 3
+[04-Nov-2026 17:44:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[04-Nov-2026 17:44:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[04-Nov-2026 17:44:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_anadir.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[04-Nov-2026 17:44:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function borrar() in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_borrar.php on line 3
+[04-Nov-2026 17:44:06 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir.php on line 2
+[04-Nov-2026 17:44:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[04-Nov-2026 17:44:06 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir copy.php on line 2
+[04-Nov-2026 17:44:06 UTC] PHP Warning:  Undefined variable $estado in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_borrar.php on line 2
+[04-Nov-2026 17:44:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php:9
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php(9): mysqli->__construct('127.0.0.1', 'root', '', 'horario')
+#1 /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resolucion_modificar.php(3): Asignatura->__construct()
+#2 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/controlador/c_asignatura.php on line 9
+[04-Nov-2026 17:44:06 UTC] PHP Warning:  Undefined variable $estado in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_borrar.php on line 2
+[04-Nov-2026 17:44:06 UTC] PHP Warning:  Undefined array key "estado" in /home/user1daw/public_html/24/DWES/ModeloVistaControlador/otros/resultado_anadir copy.php on line 2

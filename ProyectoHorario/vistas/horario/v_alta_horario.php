@@ -1,9 +1,3 @@
-<?php
-    require '../controladores/controlador.php';
-    $objHorario = new Horario();
-    $fila = $objHorario->nombreCurso($_GET["curso"]);
-    //Recibe curso por GET, lo manda por POST.
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

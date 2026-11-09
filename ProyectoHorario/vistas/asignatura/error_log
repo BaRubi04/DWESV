@@ -1,0 +1,14 @@
+[09-Nov-2026 05:42:44 UTC] PHP Warning:  require(../controlador/c_asignatura.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/asignatura/formulario_modificar.php on line 2
+[09-Nov-2026 05:42:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../controlador/c_asignatura.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/asignatura/formulario_modificar.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/asignatura/formulario_modificar.php on line 2
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined variable $filas in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/asignatura/v_listado_asignatura.php on line 14
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/asignatura/v_listado_asignatura.php on line 14
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  require(../controlador/c_asignatura.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/asignatura/formulario_modificar.php on line 2
+[09-Nov-2026 05:42:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../controlador/c_asignatura.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/asignatura/formulario_modificar.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/asignatura/formulario_modificar.php on line 2
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  Undefined variable $filas in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/asignatura/v_listado_asignatura.php on line 14
+[09-Nov-2026 05:42:51 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/user1daw/public_html/24/DWES/ProyectoHorario/vistas/asignatura/v_listado_asignatura.php on line 14

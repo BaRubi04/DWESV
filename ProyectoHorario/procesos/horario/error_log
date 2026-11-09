@@ -1,0 +1,24 @@
+[09-Nov-2026 05:42:46 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_resolucion_alta_horario.php on line 2
+[09-Nov-2026 05:42:46 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_resolucion_alta_horario.php on line 3
+[09-Nov-2026 05:42:46 UTC] PHP Warning:  require(../controladores/c_curso.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_alta_horario.php on line 5
+[09-Nov-2026 05:42:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../controladores/c_curso.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_alta_horario.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_alta_horario.php on line 5
+[09-Nov-2026 05:42:46 UTC] PHP Warning:  require(../controladores/c_curso.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_seleccion_curso.php on line 2
+[09-Nov-2026 05:42:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../controladores/c_curso.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_seleccion_curso.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_seleccion_curso.php on line 2
+[09-Nov-2026 05:42:49 UTC] PHP Warning:  require(../controladores/c_curso.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_alta_horario.php on line 5
+[09-Nov-2026 05:42:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../controladores/c_curso.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_alta_horario.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_alta_horario.php on line 5
+[09-Nov-2026 05:42:50 UTC] PHP Warning:  Undefined array key "curso" in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_resolucion_alta_horario.php on line 2
+[09-Nov-2026 05:42:50 UTC] PHP Warning:  Undefined array key "iteradorDias" in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_resolucion_alta_horario.php on line 3
+[09-Nov-2026 05:42:50 UTC] PHP Warning:  require(../controladores/c_curso.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_seleccion_curso.php on line 2
+[09-Nov-2026 05:42:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../controladores/c_curso.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_seleccion_curso.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/horario/p_seleccion_curso.php on line 2

@@ -1,0 +1,50 @@
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  require(../controlador/c_asignatura.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_anadir.php on line 2
+[09-Nov-2026 05:42:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../controlador/c_asignatura.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_anadir.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_anadir.php on line 2
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  require(../modelos/m_asignatura.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php on line 2
+[09-Nov-2026 05:42:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../modelos/m_asignatura.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php:2
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_listado_asignatura.php(2): require()
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php on line 2
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  require(../controlador/c_asignatura.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_borrar.php on line 2
+[09-Nov-2026 05:42:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../controlador/c_asignatura.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_borrar.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_borrar.php on line 2
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined array key "opcion" in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_control.php on line 2
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_control.php on line 8
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_control.php:7) in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_control.php on line 8
+[09-Nov-2026 05:42:45 UTC] PHP Warning:  require(../modelos/m_asignatura.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php on line 2
+[09-Nov-2026 05:42:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../modelos/m_asignatura.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php:2
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_modificar_asignatura.php(2): require()
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php on line 2
+[09-Nov-2026 05:42:50 UTC] PHP Warning:  require(../controlador/c_asignatura.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_borrar.php on line 2
+[09-Nov-2026 05:42:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../controlador/c_asignatura.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_borrar.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_borrar.php on line 2
+[09-Nov-2026 05:42:50 UTC] PHP Warning:  Undefined array key "opcion" in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_control.php on line 2
+[09-Nov-2026 05:42:50 UTC] PHP Warning:  Undefined array key "id" in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_control.php on line 8
+[09-Nov-2026 05:42:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_control.php:7) in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_control.php on line 8
+[09-Nov-2026 05:42:50 UTC] PHP Warning:  require(../controlador/c_asignatura.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_anadir.php on line 2
+[09-Nov-2026 05:42:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../controlador/c_asignatura.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_anadir.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_anadir.php on line 2
+[09-Nov-2026 05:42:50 UTC] PHP Warning:  require(../modelos/m_asignatura.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php on line 2
+[09-Nov-2026 05:42:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../modelos/m_asignatura.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php:2
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_listado_asignatura.php(2): require()
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php on line 2
+[09-Nov-2026 05:42:50 UTC] PHP Warning:  require(../modelos/m_asignatura.php): Failed to open stream: No such file or directory in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php on line 2
+[09-Nov-2026 05:42:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../modelos/m_asignatura.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php:2
+Stack trace:
+#0 /home/user1daw/public_html/24/DWES/ProyectoHorario/procesos/asignatura/p_modificar_asignatura.php(2): require()
+#1 {main}
+  thrown in /home/user1daw/public_html/24/DWES/ProyectoHorario/controladores/c_asignaturas.php on line 2
