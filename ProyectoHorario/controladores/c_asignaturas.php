@@ -1,5 +1,5 @@
 <?php
-    require '../modelos/m_asignatura.php';
+    require_once '../../modelos/m_asignatura.php';
     class C_Asignatura{
         
         public $vista;
