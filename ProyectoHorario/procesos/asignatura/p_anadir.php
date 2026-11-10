@@ -1,5 +1,5 @@
 <?php 
-    require '../../controladores/c_asignatura.php';
+    require_once '../../controladores/c_asignatura.php';
     $objAsignatura = new C_Asignatura();
     $estado = $objAsignatura->anadir();
     if($_GET["estado"] == 'positivo')

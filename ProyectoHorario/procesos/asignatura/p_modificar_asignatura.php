@@ -1,5 +1,5 @@
 <?php 
-    require '../../controladores/c_asignaturas.php';
+    require_once '../../controladores/c_asignaturas.php';
     $objAsignatura = new C_Asignatura();
     $estado = $objAsignatura->modificar();
     if($estado == 'positivo')

@@ -1,12 +1,12 @@
 <?php 
-    $curso = $_POST["curso"];
-    $iterador = $_POST["iteradorDias"] + 1;
+    $curso = $_GET["curso"];
+    $iterador = $_GET["iteradorDias"] + 1;
     
-    require '../../controladores/c_horario.php';
+    require_once '../../controladores/c_horario.php';
     $objHorario = new C_Horario();
     $objHorario->anadirDia();
 
-    if($iterador == 4){//Si el iterador llega a 4 (viernes), que rediriga a otra página
+    if($iterador == 4){// 4 es viernes
         header('Location: pagina_principal_horario.php');//(Página que aún no he hecho)
     }
     else

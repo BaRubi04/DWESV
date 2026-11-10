@@ -3,15 +3,12 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-    require '../../controladores/c_curso.php';
-    require '../../controladores/c_asignaturas.php';
+    require_once '../../controladores/c_horario.php'; 
 
-    $objCurso = new C_Curso();
-    $dato = $objCurso->nombreCurso();
-    
-    $objAsig = new C_Asignatura();
-    $filas = $objAsig->listadoAsignaturas();
-    
-    //Recibe curso por GET, lo manda por POST.
+    $objHorario = new C_Horario();
+    $filas = $objHorario->datosHorario(); // Llama a un método que conecta con modelos asignatura y curso
+    $nombreCursoSeleccionado = $objHorario->cursoSeleccionado;
+    $dia = $objHorario->arrayDias[$_GET["iteradorDias"]];
+
     include $objCurso->vista;
 ?>
