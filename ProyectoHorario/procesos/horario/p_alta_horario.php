@@ -7,8 +7,6 @@ error_reporting(E_ALL);
 
     $objHorario = new C_Horario();
     $filas = $objHorario->datosHorario(); // Llama a un método que conecta con modelos asignatura y curso
-    $nombreCursoSeleccionado = $objHorario->nombreCursoSeleccionado;
-    $dia = $objHorario->arrayDias[$_GET["iteradorDias"]];
 
     include $objHorario->vista;
 ?>

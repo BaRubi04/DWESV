@@ -19,8 +19,8 @@
                 petición http (cambiar de página), por eso no hace falta pasarlos como parámetros en los métodos,
                 pero sí hay que pasarlos explícitamente entre página y página.
             -->
-        <h2><?php echo $nombreCursoSeleccionado; ?></h2>
-        <h3><?php echo $dia; ?></h3>
+        <h2><?php echo $objHorario->nombreCursoSeleccionado; ?></h2>
+        <h3><?php echo $objHorario->arrayDias[$_GET["iteradorDias"]]; ?></h3>
         <?php //echo '<input name="iteradorDias" value="'.$_GET["iteradorDias"].'" hidden>'; ?>
         
         <p id="textoEmpujado">(Asignatura)</p>

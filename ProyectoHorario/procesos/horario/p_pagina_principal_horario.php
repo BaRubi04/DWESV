@@ -32,7 +32,9 @@ error_reporting(E_ALL);
     }
         
     $dia = [$lunes,$martes,$miercoles,$jueves,$viernes];
-    $datos;
+    $datos = ["lunes","martes","miercoles","jueves","viernes"];
+    foreach($datos as $dato)
+        $dato[];
     for($i = 0; $i < 4; $i++){//filas
         for($j = 0; $j < 4; $j++){//columnas
         /*
@@ -42,6 +44,7 @@ error_reporting(E_ALL);
                 "nombreAsignatura" => "PRO"
             ];
         */
+            $datos[$i][$j][] = 
         }
     }
 
