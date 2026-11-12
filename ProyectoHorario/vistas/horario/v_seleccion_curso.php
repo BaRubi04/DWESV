@@ -10,7 +10,7 @@
     <nav>
         <a>Asignaturas</a>
         <a>Usuarios</a>
-        <a>Horario</a>
+        <a href="../../procesos/index.php?controlador=C_Horario&metodo=visualizarHorario&curso=1">Horario</a>
     </nav>
     <h1>Selecciona el curso: </h1>
     <form action="p_alta_horario.php" method="GET">

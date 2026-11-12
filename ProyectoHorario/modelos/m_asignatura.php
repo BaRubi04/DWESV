@@ -1,5 +1,5 @@
 <?php
-    require_once '../../otros/configdb.php';
+    require_once '../otros/configdb.php';
     class M_Asignatura{
         
         public $conexion;

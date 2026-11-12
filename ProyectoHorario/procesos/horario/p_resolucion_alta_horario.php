@@ -5,12 +5,12 @@ error_reporting(E_ALL);
     $curso = $_GET["curso"];
     $iterador = $_GET["iteradorDias"] + 1;
     
-    require_once '../../controladores/c_horario.php';
+    require_once '../../controladores/C_Horario.php';
     $objHorario = new C_Horario();
     $objHorario->anadirDia();
 
     if($iterador == 5){// 4 es viernes, 5 ya se pasa.
-        header('Location: ./p_pagina_principal_horario.php');//Visualización del horario que has rellenado
+        header('Location: ../index.php?controlador=C_Horario&metodo=visualizarHorario&curso='.$curso);//Visualización del horario que has rellenado
     }
     else
         header('Location: ./p_alta_horario.php?iteradorDias='.$iterador.'&curso='.$curso);

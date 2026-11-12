@@ -1,5 +1,5 @@
 <?php
-    require_once '../../otros/configdb.php';
+    require_once '../otros/configdb.php';
     class M_Horario{
 
         private $conexion;
@@ -12,16 +12,9 @@
             return $this->conexion->query($consulta);
         }
 
-        public function horarioCompleto(){
-            $consulta = "select * from horario where idCurso = '".$_GET["curso"]."'";
+        public function datosHorario(){
+            $consulta = "select dia,hora,nombre,color from asignaturas inner join horario on asignaturas.idAsignatura = horario.idAsignatura where idCurso = '".$_GET["curso"]."'";
             return $this->conexion->query($consulta);
-        }
-
-        public function nombreAsignatura(){
-            $consulta = "select nombre from asignaturas inner join horario on asignaturas.idAsignatura = horario.idAsignatura where idCurso = '".$_GET["curso"]." and hora = "'..'" and dia = "'..'"'";
-            $resultado = $this->conexion->query($consulta);
-            $asignatura = $resultado->fetch_array();
-            return $asignatura["nombre"];
         }
 
         public function anadirDia(){
