@@ -16,17 +16,22 @@
         function __construct(){
             $this->modeloHorario = new M_Horario();
             $this->modeloCurso = new M_Curso();
-            $this->modeloAsignatura = new M_Asignatura();
         }
 
         public function datosHorario(){//llama al modelo curso y asignatura para obtener sus datos para el proceso de alta
-            $this->vista = '../../vistas/asignatura/v_listado_asignatura.php';
-            $this->$cursoSeleccionado = $this->modeloCurso->nombreCurso();
-            return $this->modeloAsignatura->listadoAsignaturas();//devuelve el objeto result, que luego se saca sus datos con un foreach
+            $this->vista = '../../vistas/horario/v_alta_horario.php';
+            $resultado = $this->modeloCurso->nombreCurso();
+            $this->nombreCursoSeleccionado = $resultado["nombre"];
+            return $this->modeloHorario->listadoAsignaturasCurso();//devuelve el objeto result, que luego se saca sus datos con un foreach
         }
 
         public function anadirDia() {//se usará en p_resolucion_alta_horario.php
             $this->modeloHorario->anadirDia();
+        }
+
+        public function visualizarHorario(){
+            $this->vista = '../../vistas/horario/v_pagina_principal_horario.php';
+            return $this->modeloHorario->horarioCompleto();
         }
 
     }

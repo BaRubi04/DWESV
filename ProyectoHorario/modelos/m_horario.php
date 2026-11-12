@@ -6,7 +6,24 @@
         function __construct(){
             $this->conexion = new mysqli(SERVIDOR, USUARIO, CONTRASEÑA, BASEDEDATOS);
         }
-         
+        
+        public function listadoAsignaturasCurso(){
+            $consulta = "select * from asignaturas inner join `asignaturas-cursos` on asignaturas.idAsignatura = `asignaturas-cursos`.idAsignatura where idCurso = '".$_GET["curso"]."'";
+            return $this->conexion->query($consulta);
+        }
+
+        public function horarioCompleto(){
+            $consulta = "select * from horario where idCurso = '".$_GET["curso"]."'";
+            return $this->conexion->query($consulta);
+        }
+
+        public function nombreAsignatura(){
+            $consulta = "select nombre from asignaturas inner join horario on asignaturas.idAsignatura = horario.idAsignatura where idCurso = '".$_GET["curso"]." and hora = "'..'" and dia = "'..'"'";
+            $resultado = $this->conexion->query($consulta);
+            $asignatura = $resultado->fetch_array();
+            return $asignatura["nombre"];
+        }
+
         public function anadirDia(){
 
             $dia;
@@ -26,7 +43,7 @@
                 case 4:
                     $dia = 'V';
             }
-
+            
             try {
                 $this->conexion->query("START TRANSACTION");
                 //Antes de hacer el insert, busca el profesor correspondiente a la asignatura
@@ -46,7 +63,7 @@
                 $resultadoFilaAsignatura = $this->conexion->query($busquedaProfesor);//fila con el profesor
                 $filaAsignatura = $resultadoFilaAsignatura->fetch_array();//saca la fila a un array
 
-                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('.$dia.', 1, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora1"].");";
+                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('$dia', 1, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora1"].");";
                 $this->conexion->query($consulta);
 
                 //hora 2
@@ -54,7 +71,7 @@
                 $resultadoFilaAsignatura = $this->conexion->query($busquedaProfesor);
                 $filaAsignatura = $resultadoFilaAsignatura->fetch_array();
 
-                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('.$dia.', 2, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora2"].");";
+                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('$dia', 2, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora2"].");";
                 $this->conexion->query($consulta);
 
                 //hora 3
@@ -62,7 +79,7 @@
                 $resultadoFilaAsignatura = $this->conexion->query($busquedaProfesor);
                 $filaAsignatura = $resultadoFilaAsignatura->fetch_array();
 
-                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('.$dia.', 3, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora3"].");";
+                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('$dia', 3, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora3"].");";
                 $this->conexion->query($consulta);
 
                 //hora 4
@@ -70,7 +87,7 @@
                 $resultadoFilaAsignatura = $this->conexion->query($busquedaProfesor);
                 $filaAsignatura = $resultadoFilaAsignatura->fetch_array();
 
-                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('.$dia.', 4, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora4"].");";
+                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('$dia', 4, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora4"].");";
                 $this->conexion->query($consulta);
 
                 //hora 5
@@ -78,7 +95,7 @@
                 $resultadoFilaAsignatura = $this->conexion->query($busquedaProfesor);
                 $filaAsignatura = $resultadoFilaAsignatura->fetch_array();
 
-                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('.$dia.', 5, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora5"].");";
+                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('$dia', 5, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora5"].");";
                 $this->conexion->query($consulta);
 
                 //hora 6
@@ -86,7 +103,7 @@
                 $resultadoFilaAsignatura = $this->conexion->query($busquedaProfesor);
                 $filaAsignatura = $resultadoFilaAsignatura->fetch_array();
 
-                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('.$dia.', 6, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora6"].");";
+                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('$dia', 6, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora6"].");";
                 $this->conexion->query($consulta);
 
                 //hora 7
@@ -94,7 +111,7 @@
                 $resultadoFilaAsignatura = $this->conexion->query($busquedaProfesor);
                 $filaAsignatura = $resultadoFilaAsignatura->fetch_array();
 
-                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('.$dia.', 7, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora7"].");";
+                $consulta = "INSERT INTO horario (dia, hora, idCurso, idProfesor, idAsignatura) VALUES ('$dia', 7, ".$_GET["curso"]." , ".$filaAsignatura["idProfesor"].", ".$_POST["asignaturaHora7"].");";
                 $this->conexion->query($consulta);
 
 
