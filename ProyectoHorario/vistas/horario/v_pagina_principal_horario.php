@@ -23,9 +23,8 @@
             <td><h2>Viernes</h2></td>    
         </tr>
     <?php
-        $dias = ['L', 'M', 'X', 'J', 'V'];
-        $numHoras = 7;
-        for ($hora = 1; $hora <= $numHoras; $hora++) {
+        $dias = $objC->dias;
+        for ($hora = 1; $hora <= 7; $hora++) {
             echo '<tr>';
             echo '<td>' . $hora . '</td>';
             foreach ($dias as $dia) {
