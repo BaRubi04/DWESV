@@ -23,14 +23,12 @@
             <td><h2>Viernes</h2></td>    
         </tr>
     <?php
-        $dias = ['L', 'M', 'X', 'J', 'V'];
-        $numHoras = 7;
-        for ($hora = 1; $hora <= $numHoras; $hora++) {
+        for ($hora = 1; $hora <= 7; $hora++) {
             echo '<tr>';
-            echo '<td>' . $hora . '</td>';
-            foreach ($dias as $dia) {
+            echo '<td>'.$hora.'</td>';
+            foreach ($objC->dias as $dia) {
                 $celda = $datos[$dia][$hora];
-                echo '<td style="background-color: ' . $celda["color"] . ';">' . $celda["nombre"] . '</td>';
+                echo '<td style="background-color:'.$celda["color"].';">'.$celda["nombre"].'</td>';
             }
             echo '</tr>';
         }

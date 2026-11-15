@@ -8,14 +8,9 @@
             $this->modelo = new M_Curso();
         }
 
-        public function listadoCursosSinHorario(){
-            $this->vista = '../vistas/horario/v_seleccion_curso_altaHorario.php';
-            return $this->modelo->listadoCursosSinHorario();
-        }
-
-        public function listadoCursosConHorario(){
-            $this->vista = '../vistas/horario/v_seleccion_curso_verHorario.php';
-            return $this->modelo->listadoCursosConHorario();
+        public function listadoCursos(){
+            $this->vista = '../../vistas/horario/v_seleccion_curso.php';
+            return $this->modelo->listadoCursos();
         }
 
         public function nombreCurso(){

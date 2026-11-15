@@ -12,8 +12,9 @@
         <a>Usuarios</a>
         <a href="./v_control_horario.html">Horario</a>
     </nav>
-    <h1>Selecciona el curso: </h1>
-    <form action="../procesos/index.phpcontrolador=C_Horario&metodo=datosHorarioAlta" method="GET">
+    <h1>ALTA</h1>
+    <h2>Selecciona el curso: </h2>
+    <form action="../procesos/index.php" method="GET">
         <select id="desplegableCursos" name="curso">
             <?php 
                 foreach($datos as $fila)
@@ -21,6 +22,8 @@
             ?>
         </select><br>
         <input type="text" name="iteradorDias" value="0" hidden>
+        <input type="text" name="controlador" value="C_Horario" hidden>
+        <input type="text" name="metodo" value="datosHorarioAlta" hidden>
         <input type="submit">
     </form>
 </body>

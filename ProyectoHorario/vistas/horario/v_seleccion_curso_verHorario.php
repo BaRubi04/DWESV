@@ -12,14 +12,17 @@
         <a>Usuarios</a>
         <a href="./v_control_horario.html">Horario</a>
     </nav>
-    <h1>Selecciona el curso: </h1>
-    <form action="../procesos/index.php?controlador=C_Horario&metodo=visualizarHorario" method="GET">
+    <h1>VISUALIZAR</h1>
+    <h2>Selecciona el curso: </h2>
+    <form action="../procesos/index.php" method="GET">
         <select id="desplegableCursos" name="curso">
             <?php 
                 foreach($datos as $fila)
                     echo '<option value="'.$fila["idCurso"].'">'.$fila["nombre"].'</option>';
             ?>
         </select><br>
+        <input type="text" name="controlador" value="C_Horario" hidden>
+        <input type="text" name="metodo" value="visualizarHorario" hidden>
         <input type="submit">
     </form>
 </body>
