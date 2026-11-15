@@ -7,8 +7,13 @@
             $this->conexion = new mysqli(SERVIDOR, USUARIO, CONTRASEÑA, BASEDEDATOS);
         }
          
-        public function listadoCursos(){
-            $consulta = "select * from cursos;";
+        public function listadoCursosSinHorario(){
+            $consulta = "select * from cursos c where not exists (select * from horario h where h.idCurso = c.idCurso);";
+            return $this->conexion->query($consulta);
+        }
+
+        public function listadoCursosConHorario(){
+            $consulta = "select DISTINCT c.idCurso, c.nombre from cursos as c inner join horario as h on c.idCurso = h.idCurso;";
             return $this->conexion->query($consulta);
         }
 

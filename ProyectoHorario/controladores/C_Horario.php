@@ -1,4 +1,5 @@
 <?php
+    require_once '../modelos/m_asignatura.php';
     require_once '../modelos/m_curso.php';
     require_once '../modelos/m_horario.php';
     class C_Horario{
@@ -10,8 +11,7 @@
 
         public $vista;
         public $nombreCursoSeleccionado;//Solo el nombre, el id ya está en el GET
-        public $arrayDias = ['Lunes','Martes','Miércoles','Jueves','Viernes']; //Para visualizar el día en el alta
-        public $dias = ['L','M','X','J','V']; //Para visualizar horario completo (índices)
+        public $arrayDias = ['Lunes','Martes','Miércoles','Jueves','Viernes'];
 
         function __construct(){
             $this->modeloHorario = new M_Horario();
@@ -41,8 +41,6 @@
             }
             return $horario;
         }
-
-
 
     }
 ?>

@@ -10,9 +10,9 @@
     <nav>
         <a>Asignaturas</a>
         <a>Usuarios</a>
-        <a href="../procesos/index.php?controlador=C_Horario&metodo=visualizarHorario&curso=1">Horario</a>
+        <a href="../vistas/horario/v_control_horario.html">Horario</a>
     </nav>
-    <h1>Alta horario</h1>
+    <h1>Horario de 1DAW</h1>
     <table> 
         <tr>
             <td></td>
@@ -23,8 +23,9 @@
             <td><h2>Viernes</h2></td>    
         </tr>
     <?php
-        $dias = $objC->dias;
-        for ($hora = 1; $hora <= 7; $hora++) {
+        $dias = ['L', 'M', 'X', 'J', 'V'];
+        $numHoras = 7;
+        for ($hora = 1; $hora <= $numHoras; $hora++) {
             echo '<tr>';
             echo '<td>' . $hora . '</td>';
             foreach ($dias as $dia) {
