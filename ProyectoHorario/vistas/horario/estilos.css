@@ -14,6 +14,9 @@ nav{
     margin: 0 auto;
     text-align: center;
 }
+a{
+    text-decoration: none;
+}
 h1,h2,h3{
     text-align: center;
 }
@@ -50,14 +53,30 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     cursor: grab;
-    transition: 0.5s;
-    padding: 1.5%;
+    transition: 1s;
+    font-size: 1.2rem;
 }
 select{
     margin: 0 0 1em 10%;
 }
 label{
     margin: 0 0 1em 10%;
+}
+.cajaMolona{
+    border-left: 4px solid cyan;
+    padding: 0.25em 2%;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 20%;
+    background-color: rgba(240, 248, 255, 0.534);
+}
+.cajaMolona h3{
+    text-align: left;
+}
+.cajaMolona h3:hover{
+    transition: 0.5s;
+    font-size: 1.3rem;
+    margin-left: 2%;
 }
 #textoEmpujado{
     margin: 0 0 0.5em 27%;

@@ -9,7 +9,8 @@
         }
 
         public function listadoCursosConHorario(){
-            $this->vista = '../vistas/horario/v_seleccion_curso_verHorario.php';
+            if(isset($_GET["borrar"]) && $_GET["borrar"] == 'si') $this->vista = '../vistas/horario/v_seleccion_curso_borrarHorario.php';
+            else $this->vista = '../vistas/horario/v_seleccion_curso_verHorario.php';
             return $this->modelo->listadoCursosConHorario();
         }
 

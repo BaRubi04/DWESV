@@ -4,7 +4,8 @@
     require_once '../modelos/m_horario.php';
     
     class C_Horario{
-         
+        
+        
         private $modeloHorario;
         private $modeloCurso;
         private $modeloAsignatura;
@@ -23,20 +24,19 @@
             $this->vista = '../vistas/horario/v_alta_horario.php';
             $resultado = $this->modeloCurso->nombreCurso();
             $this->nombreCursoSeleccionado = $resultado["nombre"];
-            return $this->modeloHorario->listadoAsignaturasCurso();
+            return $this->modeloHorario->listadoAsignaturasCurso();//devuelve el objeto result, que luego se saca sus datos con un foreach
         }
 
-        public function anadirDia() {
-            $curso = $_GET["curso"];
-            $iterador = $_GET["iteradorDias"] + 1;
+        public function anadirDia() {//se usará en p_resolucion_alta_horario.php
+            $iterador = $_GET["iterador"] + 1;
             $this->modeloHorario->anadirDia();
             if($iterador == 5)// 4 es viernes, 5 ya se pasa.
-                header('Location: ./index.php?controlador=C_Horario&metodo=visualizarHorario&curso='.$curso);//Visualización del horario que has rellenado
-            header('Location: ./index.php?iteradorDias='.$iterador.'&curso='.$curso);
+                header('Location: ./index.php?controlador=C_Horario&metodo=visualizarHorario&curso='.$_GET["curso"]);//Visualización del horario que has rellenado
+            header('Location: ./index.php?iteradorDias='.$iterador.'&curso='.$_GET["curso"]);
         }
 
         public function visualizarHorario(){
-            $this->vista = '../vistas/horario/v_visualizacion_horario.php';
+            $this->vista = '../vistas/horario/v_pagina_principal_horario.php';
             $resultado = $this->modeloHorario->datosHorario();
             $horario = [];
             while($fila = $resultado->fetch_assoc()){
@@ -46,6 +46,10 @@
                 ];
             }
             return $horario;
+        }
+
+        public function borrarHorario(){
+            $this->modeloHorario->borrarHorario();
         }
 
     }

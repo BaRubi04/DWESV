@@ -17,6 +17,11 @@
             return $this->conexion->query($consulta);
         }
 
+        public function borrarHorario(){
+            $consulta = "delete from horario where idCurso = '".$_GET["curso"]."'";
+            $this->conexion->query($consulta);
+        }
+
         public function anadirDia(){
 
             $dia;
