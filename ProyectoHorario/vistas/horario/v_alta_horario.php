@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="<?php echo ESTILOS; ?>">
     <title>Alta horario</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
         <a>Horario</a>
     </nav>
     <h1>Alta horario</h1>    
-    <?php echo '<form action="./index.php?controlador=C_Horario&metodo=anadirDia&iteradorDias='.$_GET["iteradorDias"].'&curso='.$_GET["curso"].'" method="POST">'; ?>
+    <form action="<?php echo PROCESO_ANADIR_DIA; ?>" method="POST">
             <!-- 
                 Recordatorio: $_GET y $_POST son superglobales, pero pierden su valor por cada nueva
                 petición http (cambiar de página), por eso no hace falta pasarlos como parámetros en los métodos,

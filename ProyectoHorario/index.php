@@ -4,6 +4,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
     require_once "./otros/configuracion.php";
+    require_once "./otros/rutas.php";
 
     if(isset($_GET["controlador"]) && isset($_GET["metodo"])){
         require_once "./controladores/".$_GET["controlador"].".php";
@@ -19,5 +20,5 @@ error_reporting(E_ALL);
     $objC = new $controlador();
     $datos = $objC->$metodo();
     
-    include "./vistas/".$objC->vista;
+    include $objC->vista;
 ?>

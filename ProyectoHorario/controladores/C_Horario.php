@@ -1,11 +1,9 @@
 <?php
-    require_once '../modelos/m_asignatura.php';
-    require_once '../modelos/m_curso.php';
-    require_once '../modelos/m_horario.php';
+    require_once MODELO_CURSO;
+    require_once MODELO_HORARIO;
     
     class C_Horario{
-        
-        
+         
         private $modeloHorario;
         private $modeloCurso;
         private $modeloAsignatura;
@@ -20,8 +18,12 @@
             $this->modeloCurso = new M_Curso();
         }
 
+        public function vistaControlHorario(){
+            $this->vista = VISTA_CONTROL_HORARIO;
+        }
+
         public function datosHorarioAlta(){//llama al modelo curso y asignatura para obtener sus datos para el proceso de alta
-            $this->vista = 'horario/v_alta_horario.php';
+            $this->vista = VISTA_ALTA_HORARIO;
             $resultado = $this->modeloCurso->nombreCurso();
             $this->nombreCursoSeleccionado = $resultado["nombre"];
             return $this->modeloHorario->listadoAsignaturasCurso();//devuelve el objeto result, que luego se saca sus datos con un foreach
@@ -31,12 +33,12 @@
             $iterador = $_GET["iteradorDias"] + 1;
             $this->modeloHorario->anadirDia();
             if($iterador == 5)// 4 es viernes, 5 ya se pasa.
-                header('Location: ./index.php?controlador=C_Horario&metodo=visualizarHorario&curso='.$_GET["curso"]);//Visualización del horario que has rellenado
-            else header('Location: ./index.php?controlador=C_Horario&metodo=datosHorarioAlta&iteradorDias='.$iterador.'&curso='.$_GET["curso"]);
+                header('Location: '.PROCESO_VISUALIZAR_HORARIO);
+            else header('Location: '.PROCESO_ALTA_HORARIO);
         }
 
         public function visualizarHorario(){
-            $this->vista = 'horario/v_visualizacion_horario.php';
+            $this->vista = VISTA_VISUALIZAR_HORARIO;
             $resultado = $this->modeloHorario->datosHorario();
             $horario = [];
             while($fila = $resultado->fetch_assoc()){
@@ -50,14 +52,13 @@
 
         public function borrarHorario(){
             $this->modeloHorario->borrarHorario();
-            header('Location: ../vistas/horario/v_control_horario.html');
+            header('Location: '.PROCESO_CONTROL_HORARIO);
         }
-
-        /*
-        public function modificarHora(){
+  
+        public function modificarHora(){// NO FUNCIONA AÚN
             $this->modeloHorario->modificarHora();
-            header('Location: ./index.php?controlador=C_Horario&metodo=visualizarHorario&curso='.$_GET["curso"]);
+            header('Location: '.PROCESO_VISUALIZAR_HORARIO);
         }
-        */
+        
     }
 ?>

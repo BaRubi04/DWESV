@@ -1,5 +1,5 @@
 <?php
-    require_once '../modelos/m_curso.php';
+    require_once MODELO_CURSO;
     class C_Curso{
         
         public $vista;
@@ -10,14 +10,14 @@
 
         public function listadoCursosConHorario(){
             if(isset($_GET["borrar"]) && $_GET["borrar"] == 'si') 
-                $this->vista = 'horario/v_seleccion_curso_borrarHorario.php';
+                $this->vista = VISTA_SELECCION_CURSO_BORRAR_HORARIO;
             else 
-                $this->vista = 'horario/v_seleccion_curso_verHorario.php';
+                $this->vista = VISTA_SELECCION_CURSO_VER_HORARIO;
             return $this->modelo->listadoCursosConHorario();
         }
 
         public function listadoCursosSinHorario(){
-            $this->vista = 'horario/v_seleccion_curso_altaHorario.php';
+            $this->vista = VISTA_SELECCION_CURSO_ALTA_HORARIO;
             return $this->modelo->listadoCursosSinHorario();
         }
 

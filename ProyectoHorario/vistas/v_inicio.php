@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../vistas/horario/estilos.css">
+    <link rel="stylesheet" href="<?php echo ESTILOS; ?>">
     <title>Inicio</title>
 </head>
 <body>
     <nav>
         <a>Asignaturas</a>
         <a>Usuarios</a>
-        <a href="./horario/v_control_horario.html">Horario</a>
+        <?php echo '<a href="'.PROCESO_CONTROL_HORARIO.'">Horario</a>';?>
     </nav>
     <h1>Buenas tardes, esto es la página de inicio</h1>
 </body>
