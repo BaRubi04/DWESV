@@ -28,15 +28,15 @@
         }
 
         public function anadirDia() {//se usará en p_resolucion_alta_horario.php
-            $iterador = $_GET["iterador"] + 1;
+            $iterador = $_GET["iteradorDias"] + 1;
             $this->modeloHorario->anadirDia();
             if($iterador == 5)// 4 es viernes, 5 ya se pasa.
                 header('Location: ./index.php?controlador=C_Horario&metodo=visualizarHorario&curso='.$_GET["curso"]);//Visualización del horario que has rellenado
-            header('Location: ./index.php?iteradorDias='.$iterador.'&curso='.$_GET["curso"]);
+            else header('Location: ./index.php?controlador=C_Horario&metodo=datosHorarioAlta&iteradorDias='.$iterador.'&curso='.$_GET["curso"]);
         }
 
         public function visualizarHorario(){
-            $this->vista = '../vistas/horario/v_pagina_principal_horario.php';
+            $this->vista = '../vistas/horario/v_visualizacion_horario.php';
             $resultado = $this->modeloHorario->datosHorario();
             $horario = [];
             while($fila = $resultado->fetch_assoc()){
@@ -50,6 +50,7 @@
 
         public function borrarHorario(){
             $this->modeloHorario->borrarHorario();
+            header('Location: ../vistas/horario/v_control_horario.html');
         }
 
     }

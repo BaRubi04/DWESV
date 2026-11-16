@@ -10,7 +10,7 @@
     <nav>
         <a>Asignaturas</a>
         <a>Usuarios</a>
-        <a href="./v_control_horario.html">Horario</a>
+        <a href="../vistas/horario/v_control_horario.html">Horario</a>
     </nav>
     <h1>BORRAR</h1>
     <h2>Selecciona el curso: </h2>
