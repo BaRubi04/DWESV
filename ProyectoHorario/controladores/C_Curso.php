@@ -9,13 +9,15 @@
         }
 
         public function listadoCursosConHorario(){
-            if(isset($_GET["borrar"]) && $_GET["borrar"] == 'si') $this->vista = '../vistas/horario/v_seleccion_curso_borrarHorario.php';
-            else $this->vista = '../vistas/horario/v_seleccion_curso_verHorario.php';
+            if(isset($_GET["borrar"]) && $_GET["borrar"] == 'si') 
+                $this->vista = 'horario/v_seleccion_curso_borrarHorario.php';
+            else 
+                $this->vista = 'horario/v_seleccion_curso_verHorario.php';
             return $this->modelo->listadoCursosConHorario();
         }
 
         public function listadoCursosSinHorario(){
-            $this->vista = '../vistas/horario/v_seleccion_curso_altaHorario.php';
+            $this->vista = 'horario/v_seleccion_curso_altaHorario.php';
             return $this->modelo->listadoCursosSinHorario();
         }
 

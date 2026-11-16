@@ -22,6 +22,11 @@
             $this->conexion->query($consulta);
         }
 
+        public function modificarHora(){
+            $consulta = "update horario set idHora = '".$_GET["asignatura"]."' where idCurso = '".$_GET["curso"]."'";
+            $this->conexion->query($consulta);
+        }
+
         public function anadirDia(){
 
             $dia;

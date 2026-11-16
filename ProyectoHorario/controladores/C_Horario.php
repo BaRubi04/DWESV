@@ -21,7 +21,7 @@
         }
 
         public function datosHorarioAlta(){//llama al modelo curso y asignatura para obtener sus datos para el proceso de alta
-            $this->vista = '../vistas/horario/v_alta_horario.php';
+            $this->vista = 'horario/v_alta_horario.php';
             $resultado = $this->modeloCurso->nombreCurso();
             $this->nombreCursoSeleccionado = $resultado["nombre"];
             return $this->modeloHorario->listadoAsignaturasCurso();//devuelve el objeto result, que luego se saca sus datos con un foreach
@@ -36,7 +36,7 @@
         }
 
         public function visualizarHorario(){
-            $this->vista = '../vistas/horario/v_visualizacion_horario.php';
+            $this->vista = 'horario/v_visualizacion_horario.php';
             $resultado = $this->modeloHorario->datosHorario();
             $horario = [];
             while($fila = $resultado->fetch_assoc()){
@@ -53,5 +53,11 @@
             header('Location: ../vistas/horario/v_control_horario.html');
         }
 
+        /*
+        public function modificarHora(){
+            $this->modeloHorario->modificarHora();
+            header('Location: ./index.php?controlador=C_Horario&metodo=visualizarHorario&curso='.$_GET["curso"]);
+        }
+        */
     }
 ?>
