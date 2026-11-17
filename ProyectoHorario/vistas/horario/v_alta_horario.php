@@ -13,7 +13,7 @@
         <a>Horario</a>
     </nav>
     <h1>Alta horario</h1>    
-    <form action="<?php echo PROCESO_ANADIR_DIA; ?>" method="POST">
+    <form action="<?php echo PROCESO_ANADIR_DIA.$_GET["iteradorDias"].'&curso='.$_GET["curso"]; ?>" method="POST">
             <!-- 
                 Recordatorio: $_GET y $_POST son superglobales, pero pierden su valor por cada nueva
                 petición http (cambiar de página), por eso no hace falta pasarlos como parámetros en los métodos,

@@ -29,16 +29,18 @@
             return $this->modeloHorario->listadoAsignaturasCurso();//devuelve el objeto result, que luego se saca sus datos con un foreach
         }
 
-        public function anadirDia() {//se usará en p_resolucion_alta_horario.php
-            $iterador = $_GET["iteradorDias"] + 1;
+        public function anadirDia() {
             $this->modeloHorario->anadirDia();
-            if($iterador == 5)// 4 es viernes, 5 ya se pasa.
-                header('Location: '.PROCESO_VISUALIZAR_HORARIO);
-            else header('Location: '.PROCESO_ALTA_HORARIO);
+            $_GET["iteradorDias"]++;
+            if($_GET["iteradorDias"] == 5)// 4 es viernes, 5 ya se pasa.
+                header('Location: '.PROCESO_VISUALIZAR_HORARIO.$_GET["curso"]);
+            else header('Location: '.PROCESO_ALTA_HORARIO.$_GET["iteradorDias"].'&curso='.$_GET["curso"]);
         }
 
         public function visualizarHorario(){
             $this->vista = VISTA_VISUALIZAR_HORARIO;
+            $resultado = $this->modeloCurso->nombreCurso();
+            $this->nombreCursoSeleccionado = $resultado["nombre"];
             $resultado = $this->modeloHorario->datosHorario();
             $horario = [];
             while($fila = $resultado->fetch_assoc()){

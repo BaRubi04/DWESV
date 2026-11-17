@@ -1,5 +1,5 @@
 <?php
-    require_once '../otros/configdb.php';
+    require_once CONFIGDB;
     class M_Curso{
 
         private $conexion;

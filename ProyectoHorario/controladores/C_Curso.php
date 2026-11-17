@@ -12,7 +12,7 @@
             if(isset($_GET["borrar"]) && $_GET["borrar"] == 'si') 
                 $this->vista = VISTA_SELECCION_CURSO_BORRAR_HORARIO;
             else 
-                $this->vista = VISTA_SELECCION_CURSO_VER_HORARIO;
+                $this->vista = VISTA_SELECCION_CURSO_VISUALIZAR_HORARIO;
             return $this->modelo->listadoCursosConHorario();
         }
 
