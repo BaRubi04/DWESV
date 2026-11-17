@@ -33,6 +33,7 @@
     define('MODELO_CURSO','./modelos/M_Curso.php');
     define('MODELO_HORARIO','./modelos/M_Horario.php');
     define('MODELO_ASIGNATURA','./modelos/M_Asignatura.php');
+    define('CONEXION','./modelos/Conexion.php');
 
 // OTROS
     define('CONFIGDB','./otros/configdb.php');

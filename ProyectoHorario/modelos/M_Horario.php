@@ -1,11 +1,7 @@
 <?php
     require_once CONFIGDB;
+    require_once CONEXION;
     class M_Horario{
-
-        private $conexion;
-        function __construct(){
-            $this->conexion = new mysqli(SERVIDOR, USUARIO, CONTRASEÑA, BASEDEDATOS);
-        }
         
         public function listadoAsignaturasCurso(){
             $consulta = "select * from asignaturas inner join `asignaturas-cursos` on asignaturas.idAsignatura = `asignaturas-cursos`.idAsignatura where idCurso = '".$_GET["curso"]."'";

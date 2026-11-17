@@ -1,12 +1,9 @@
 <?php
     require_once CONFIGDB;
+    require_once CONEXION;
     class M_Asignatura{
         
         public $conexion;
-        private $modelo;
-        function __construct(){
-            $this->conexion = new mysqli(SERVIDOR, USUARIO, CONTRASEÑA, BASEDEDATOS);
-        }
 
         public function listadoAsignaturas() {
             $consulta = "select * from asignaturas";

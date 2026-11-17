@@ -1,11 +1,7 @@
 <?php
     require_once CONFIGDB;
-    class M_Curso{
-
-        private $conexion;
-        function __construct(){
-            $this->conexion = new mysqli(SERVIDOR, USUARIO, CONTRASEÑA, BASEDEDATOS);
-        }
+    require_once CONEXION;
+    class M_Curso extends Conexion{
          
         public function listadoCursosSinHorario(){
             $consulta = "select * from cursos c where not exists (select * from horario h where h.idCurso = c.idCurso);";

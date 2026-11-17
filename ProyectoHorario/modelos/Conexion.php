@@ -1,11 +1,9 @@
 <?php
-    require '../otros/configdb.php';
+    require_once CONFIGDB;
     class Conexion{
-        public $conexion;
+        protected $conexion;
         function __construct(){
-            global $SERVIDOR, $USUARIO, $CONTRASEÑA, $BASEDEDATOS;
-            $this->conexion = new mysqli($SERVIDOR, $USUARIO, $CONTRASEÑA, $BASEDEDATOS);
+            $this->conexion = new mysqli(SERVIDOR, USUARIO, CONTRASEÑA, BASEDEDATOS);
         }
-        // public function query($consulta){return $this->conexion->query($consulta);}
     }
 ?>
