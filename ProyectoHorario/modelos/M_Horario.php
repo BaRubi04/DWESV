@@ -19,7 +19,7 @@
         }
 
         public function modificarHora(){
-            $consulta = "update horario set idHora = '".$_GET["asignatura"]."' where idCurso = '".$_GET["curso"]."'";
+            $consulta = "update horario set idAsignatura = '".$_GET["asignatura"]."', idProfesor = '".$_GET["profesor"]."' where idCurso = '".$_GET["curso"]."' and dia = '".$_GET["dia"]."' hora = '".$_GET["hora"]."'";
             $this->conexion->query($consulta);
         }
 
