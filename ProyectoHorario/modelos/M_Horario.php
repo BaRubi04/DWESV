@@ -1,7 +1,7 @@
 <?php
     require_once CONFIGDB;
     require_once CONEXION;
-    class M_Horario{
+    class M_Horario extends Conexion{
         
         public function listadoAsignaturasCurso(){
             $consulta = "select * from asignaturas inner join `asignaturas-cursos` on asignaturas.idAsignatura = `asignaturas-cursos`.idAsignatura where idCurso = '".$_GET["curso"]."'";

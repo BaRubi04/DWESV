@@ -1,10 +1,8 @@
 <?php
     require_once CONFIGDB;
     require_once CONEXION;
-    class M_Asignatura{
+    class M_Asignatura extends Conexion{
         
-        public $conexion;
-
         public function listadoAsignaturas() {
             $consulta = "select * from asignaturas";
             $resultado = $this->conexion->query($consulta);
