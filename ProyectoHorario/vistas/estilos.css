@@ -9,12 +9,15 @@
 }
 html{
     font-size:16px;
-    font-weight: 700;
+    font-weight: 700;/* Si lo pongo arriba no se aplica */
 }
 body{
     margin:0;
     width:100%;
+    /*background-image: url('fondito.gif');*/
     background-image: url('fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 nav{
     border-radius: 10px;
