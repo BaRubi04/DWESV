@@ -21,6 +21,7 @@
     define('VISTA_SELECCION_CURSO_BORRAR_HORARIO','./vistas/horario/v_seleccion_curso_borrar_horario.php');
     define('VISTA_ALTA_HORARIO','./vistas/horario/v_alta_horario.php');
     define('VISTA_VISUALIZAR_HORARIO','./vistas/horario/v_visualizacion_horario.php');
+    
     define('VISTA_INICIAL','./vistas/v_inicio.php');
 
     define('VISTA_INICIO_SESION','./vistas/usuario/v_inicio_sesion.php');
