@@ -6,9 +6,16 @@
 
 // PROCESOS CON VISTAS
     define('PROCESO_LISTADO_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=listarAsignaturas');
-    define('PROCESO_ANADIR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=anadirAsignaturas');
-    define('PROCESO_BORRAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=borrarAsignaturas');
-    define('PROCESO_MODIFICAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=modificarAsignaturas');
+    define('PROCESO_FORMULARIO_ALTA_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=formularioAlta');
+    define('PROCESO_FORMULARIO_MODIFICACION_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=formularioModificar&id=');
+    define('PROCESO_CONTROL_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=controlar&id=');
+    define('PROCESO_PREGUNTAR_BORRAR','./index.php?controlador=C_Asignatura&metodo=preguntarBorrar&id=');
+    define('PROCESO_ALTA_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=anadirAsignatura');
+    define('PROCESO_BORRAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=borrarAsignatura&id=');
+    define('PROCESO_MODIFICAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=modificarAsignatura');
+    define('PROCESO_RESULTADO_ANADIR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=resultadoAnadirAsignatura&resultado=');
+    define('PROCESO_RESULTADO_MODIFICAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=resultadoModificarAsignatura&resultado=');
+    define('PROCESO_RESULTADO_BORRAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=resultadoBorrarAsignatura&resultado=');
 
     define('PROCESO_CONTROL_HORARIO','./index.php?controlador=C_Horario&metodo=vistaControlHorario');
     define('PROCESO_SELECCION_CURSO_VISUALIZAR_HORARIO','./index.php?controlador=C_Curso&metodo=listadoCursosConHorario');
@@ -21,6 +28,14 @@
     define('PROCESO_INICIO_SESION','./index.php?controlador=C_Usuario&metodo=iniciarSesion');
     
 // VISTAS
+    define('VISTA_LISTADO_ASIGNATURAS','./vistas/asignatura/v_listado.php');
+    define('VISTA_FORMULARIO_ALTA_ASIGNATURAS','./vistas/asignatura/v_formulario_anadir.php');
+    define('VISTA_FORMULARIO_MODIFICAR_ASIGNATURAS','./vistas/asignatura/v_formulario_modificar.php');
+    define('VISTA_PREGUNTAR_BORRADO_ASIGNATURAS','./vistas/asignatura/v_preguntar_borrar.php');
+    define('VISTA_RESULTADO_ANADIR_ASIGNATURAS','./vistas/asignatura/v_resultado_anadir.php');
+    define('VISTA_RESULTADO_BORRAR_ASIGNATURAS','./vistas/asignatura/v_resultado_borrar.php');
+    define('VISTA_RESULTADO_MODIFICAR_ASIGNATURAS','./vistas/asignatura/v_resultado_modificar.php');
+
     define('VISTA_CONTROL_HORARIO','./vistas/horario/v_control_horario.php');
     define('VISTA_SELECCION_CURSO_VISUALIZAR_HORARIO','./vistas/horario/v_seleccion_curso_visualizar_horario.php');
     define('VISTA_SELECCION_CURSO_ALTA_HORARIO','./vistas/horario/v_seleccion_curso_alta_horario.php');

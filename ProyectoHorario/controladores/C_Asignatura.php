@@ -8,33 +8,50 @@
             $this->modelo = new M_Asignatura();
         }
 
-        public function listadoAsignaturas() {
-            $this->vista = './vistas/asignatura/v_listado_asignatura.php';
-            return $this->modelo->listadoAsignaturas();
+        public function listarAsignaturas() {
+            $this->vista = VISTA_LISTADO_ASIGNATURAS;
+            return $this->modelo->listarAsignaturas();
         }
 
-        public function control(){
+        public function controlar(){
             if($_GET["opcion"] == 'modificar')
-                header('Location: ./p_modificar_asignatura.php?id='.$_GET["id"]);
-            else
-                header('Location: ../vistas/asignatura/v_borrar_preguntar.php?id='.$_GET["id"]);  
+                header('Location: '.PROCESO_FORMULARIO_MODIFICACION_ASIGNATURAS.$_GET["id"]);
+            else if($_GET["opcion"] == 'borrar')
+                header('Location: '.PROCESO_PREGUNTAR_BORRAR.$_GET["id"]);  
         }
 
-        public function anadir() {
-            $this->modelo->anadir();
+        public function formularioAlta(){
+            $this->vista = VISTA_FORMULARIO_ALTA_ASIGNATURAS;
+        }
+        public function anadirAsignatura() {
+            $resultado = $this->modelo->anadirAsignatura();
+            header('Location: '.PROCESO_RESULTADO_ANADIR_ASIGNATURAS.$resultado);
+        }
+        public function resultadoAnadirAsignatura(){
+            $this->vista = VISTA_RESULTADO_ANADIR_ASIGNATURAS;
         }
         
-        public function consultaNombreColor() {
-            $this->vista = '../../vistas/asignatura/v_modificar.php';
+        public function formularioModificar(){
+            $this->vista = VISTA_FORMULARIO_MODIFICAR_ASIGNATURAS;
             return $this->modelo->consultaNombreColor();
         }
-
-        public function modificar(){
-            $this->modelo->modificar();
+        public function modificarAsignatura(){
+            $resultado = $this->modelo->modificarAsignatura();
+            header('Location: '.PROCESO_RESULTADO_MODIFICAR_ASIGNATURAS.$resultado);
+        }
+        public function resultadoModificarAsignatura(){
+            $this->vista = VISTA_RESULTADO_MODIFICAR_ASIGNATURAS;
         }
 
-        public function borrar(){
-            $this->modelo->borrar();
+        public function preguntarBorrar(){
+            $this->vista = VISTA_PREGUNTAR_BORRADO_ASIGNATURAS;
+        }
+        public function borrarAsignatura(){
+            $resultado = $this->modelo->borrarAsignatura();
+            header('Location: '.PROCESO_RESULTADO_BORRAR_ASIGNATURAS.$resultado);
+        }
+        public function resultadoBorrarAsignatura(){
+            $this->vista = VISTA_RESULTADO_BORRAR_ASIGNATURAS;
         }
     }
 ?>
