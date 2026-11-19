@@ -7,12 +7,8 @@
 // PROCESOS CON VISTAS
     define('PROCESO_LISTADO_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=listarAsignaturas');
     define('PROCESO_FORMULARIO_ALTA_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=formularioAlta');
-    define('PROCESO_FORMULARIO_MODIFICACION_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=formularioModificar&id=');
-    define('PROCESO_CONTROL_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=controlar&id=');
+    define('PROCESO_FORMULARIO_MODIFICACION_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=formularioModificar&id=');  
     define('PROCESO_PREGUNTAR_BORRAR','./index.php?controlador=C_Asignatura&metodo=preguntarBorrar&id=');
-    define('PROCESO_ALTA_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=anadirAsignatura');
-    define('PROCESO_BORRAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=borrarAsignatura&id=');
-    define('PROCESO_MODIFICAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=modificarAsignatura');
     define('PROCESO_RESULTADO_ANADIR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=resultadoAnadirAsignatura&resultado=');
     define('PROCESO_RESULTADO_MODIFICAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=resultadoModificarAsignatura&resultado=');
     define('PROCESO_RESULTADO_BORRAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=resultadoBorrarAsignatura&resultado=');
@@ -51,6 +47,11 @@
     define('ESTILOS','./vistas/estilos.css');
 
 // PROCESOS SIN VISTAS
+    define('PROCESO_CONTROL_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=controlar&id=');
+    define('PROCESO_ALTA_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=anadirAsignatura');
+    define('PROCESO_BORRAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=borrarAsignatura&id=');
+    define('PROCESO_MODIFICAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=modificarAsignatura');
+
     define('PROCESO_BORRAR_HORARIO','./index.php?controlador=C_Curso&metodo=borrarHorario');
     define('PROCESO_ANADIR_DIA','./index.php?controlador=C_Horario&metodo=anadirDia&iteradorDias=');
     define('PROCESO_MODIFICAR_HORA','./index.php?controlador=C_Horario&metodo=modificarHora');
