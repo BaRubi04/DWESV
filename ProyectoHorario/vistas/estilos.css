@@ -18,12 +18,14 @@ body{
 }
 nav{
     border-radius: 10px;
-    background-image: linear-gradient(225deg, rgb(185, 208, 245), rgb(161, 182, 215));
-    box-shadow: -5px 5px 10px rgb(91, 103, 121);
     width: 25%;
     padding: 1em 3%;
     margin: 1em auto;
     text-align: center;
+}
+nav,form{
+    background-image: linear-gradient(225deg, rgb(185, 208, 245), rgb(161, 182, 215));
+    box-shadow: -5px 5px 10px rgb(91, 103, 121);
 }
 nav a:first-child{
     float:left;
@@ -55,26 +57,18 @@ table{
     margin: 0 auto;
     text-align: center;
 }
-#formAlta{
+form{
     margin:auto;
     border-radius: 10px;
     width: 20%;
-    background-color: rgb(185, 208, 245);
+}
+#formAlta{
     padding: 1%;
 }
 .formSeleccionCurso{
-    margin:auto;
-    border-radius: 10px;
-    width: 20%;
-    background-color: rgb(185, 208, 245);
     padding: 2%;
 }
 #formInicioSesion{
-    margin:auto;
-    border-radius: 10px;
-    width: 20%;
-    background-image: linear-gradient(225deg, rgb(185, 208, 245), rgb(161, 182, 215));
-    box-shadow: -5px 5px 10px rgb(91, 103, 121);
     padding: 2% 2% 1% 2%;
 }
 input[type="submit"]{
