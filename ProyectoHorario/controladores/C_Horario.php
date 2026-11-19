@@ -19,10 +19,12 @@
         }
 
         public function vistaControlHorario(){
+            session_start();
             $this->vista = VISTA_CONTROL_HORARIO;
         }
 
         public function datosHorarioAlta(){//llama al modelo curso y asignatura para obtener sus datos para el proceso de alta
+            session_start();
             $this->vista = VISTA_ALTA_HORARIO;
             $resultado = $this->modeloCurso->nombreCurso();
             $this->nombreCursoSeleccionado = $resultado["nombre"];
@@ -38,6 +40,7 @@
         }
 
         public function visualizarHorario(){
+            session_start();
             $this->vista = VISTA_VISUALIZAR_HORARIO;
             $resultado = $this->modeloCurso->nombreCurso();
             $this->nombreCursoSeleccionado = $resultado["nombre"];
@@ -53,6 +56,7 @@
         }
 
         public function borrarHorario(){
+            session_start();
             $this->modeloHorario->borrarHorario();
             header('Location: '.PROCESO_CONTROL_HORARIO);
         }

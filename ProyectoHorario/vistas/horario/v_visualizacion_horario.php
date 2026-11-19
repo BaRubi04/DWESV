@@ -9,9 +9,10 @@
 <body>
     <nav>
         <a>Asignaturas</a>
-        <a>Usuarios</a>
+        <a href="<?php echo PROCESO_FORMULARIO_INICIO_SESION ?>">Usuarios</a>
         <a href="<?php echo PROCESO_CONTROL_HORARIO; ?>">Horario</a>
     </nav>
+    <h2><?php if(isset($_SESSION["usuario"])) echo 'Inición sesiada: <i><u>'.$_SESSION["usuario"].'</u></i>'; ?></h2>
     <h1>Horario de <?php echo $objC->nombreCursoSeleccionado; ?></h1>
     <table> 
         <tr>

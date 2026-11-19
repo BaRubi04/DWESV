@@ -9,9 +9,10 @@
 <body>
     <nav>
         <a>Asignaturas</a>
-        <a>Usuarios</a>
+        <a href="<?php echo PROCESO_FORMULARIO_INICIO_SESION ?>">Usuarios</a>
         <a href="<?php echo PROCESO_CONTROL_HORARIO; ?>">Horario</a>
     </nav>
+    <h2><?php if(isset($_SESSION["usuario"])) echo 'Inición sesiada: <i><u>'.$_SESSION["usuario"].'</u></i>'; ?></h2>
     <h1>GESTIÓN DE HORARIOS</h1>
     <div class="cajaMolona">
         <h3><a href="<?php echo PROCESO_SELECCION_CURSO_VISUALIZAR_HORARIO; ?>">Visualizar el horario de un curso</a></h3>

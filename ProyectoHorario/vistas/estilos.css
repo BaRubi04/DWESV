@@ -1,36 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
 html{
-    /*width:1400px;*/
     font-size:16px;
+    font-weight: 700;/* Si lo pongo arriba no se aplica */
 }
 body{
     margin:0;
     width:100%;
+    /*background-image: url('fondito.gif');*/
     background-image: url('fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 nav{
     border-radius: 10px;
-    background-color: rgb(185, 208, 245);
-    width: 30%;
-    margin: 0 auto;
+    width: 25%;
+    padding: 1em 3%;
+    margin: 1em auto;
     text-align: center;
+}
+nav,form{
+    background-image: linear-gradient(225deg, rgb(185, 208, 245), rgb(161, 182, 215));
+    box-shadow: -5px 5px 10px rgb(91, 103, 121);
+}
+nav a:first-child{
+    float:left;
+}
+nav a:nth-child(2){
+    clear:both;
+}
+nav a:nth-child(3){
+    float:right;
 }
 a{
     text-decoration: none;
+    color:black;
 }
 h1,h2,h3{
     text-align: center;
 }
 nav a{
     display:inline-block;
-    padding: 0.5%;
-    border-radius: 4px;
-    background-color: rgba(240, 248, 255, 0.534);
-    margin: 1em 3% 1em 6%;
+    padding: 1%;
+    border-radius: 10px;
 }
 nav a:hover{
     cursor: grab;
     transition: 0.5s;
-    padding: 0.7%;
+    background-color: rgba(240, 248, 255, 0.534);
 }
 table{
     margin: 0 auto;
@@ -39,16 +63,24 @@ table{
 form{
     margin:auto;
     border-radius: 10px;
-    width: 40%;
-    background-color: rgb(185, 208, 245);
+    width: 20%;
+}
+#formAlta{
+    padding: 1%;
+}
+.formSeleccionCurso{
     padding: 2%;
 }
+#formInicioSesion{
+    padding: 2% 2% 1% 2%;
+}
 input[type="submit"]{
-    margin: 3em 0 0 30%;
+    margin: 0 0 1em 30%;
     padding: 1%;
     font-weight: bolder;
     font-style: italic;
     font-size: large;
+    border-radius: 10px;
     box-shadow: rgb(149, 131, 108) -3px 3px 5px;
 }
 input[type="submit"]:hover{
@@ -56,11 +88,11 @@ input[type="submit"]:hover{
     transition: 1s;
     font-size: 1.2rem;
 }
-select{
-    margin: 0 0 1em 10%;
+select,.labelsAlta{
+    margin: 0 0 1em 20%;
 }
-label{
-    margin: 0 0 1em 10%;
+#textoEmpujado{
+    margin: 0 0 0.5em 55%;
 }
 .cajaMolona{
     border-left: 4px solid cyan;
@@ -78,25 +110,59 @@ label{
     font-size: 1.3rem;
     margin-left: 2%;
 }
-#textoEmpujado{
-    margin: 0 0 0.5em 27%;
-}
-#desplegableCursos{
-    margin:1em 0 1em 40%;
+.desplegableForm{
+    margin: 0 0 1em 25%;
     border-radius:10px;
     border:0;
     background-color:rgba(240, 248, 255, 0.534);
     font-size: 1.5em;
     padding:1%;
 }
-#desplegableCursos:hover{
+.desplegableForm:hover{
     transition: 0.5s;
     cursor:grab;
     background-color:rgb(240, 248, 255);
     font-size: 1.6em;
     padding:1.1%;
 }
-#desplegableCursos:focus{/* focus es el elemento que tienes seleccionado */
+.desplegableForm:focus{
     transition:0;
     background-color:rgb(255, 255, 255);
+}
+.inputForm{
+    width: 47%;
+    border-radius:10px;
+    border:0;
+    background-color:rgba(240, 248, 255, 0.534);
+    padding: 2% 2% 2% 4%;
+    margin-bottom: 2em;
+    float:left;
+}
+.labelsFlotantes{
+    float:left;
+    text-align: left;
+    display:block;
+    clear:left;
+    width: 25%;
+    margin-right: 20%;
+}
+#botonDestruirSesion{
+    margin: 2% auto;
+    width: 15%;
+    padding: 1%;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    border-radius: 10px;
+    box-shadow: rgb(149, 131, 108) -3px 3px 5px;
+    text-align: center;
+    display:block;
+}
+#botonDestruirSesion:hover{
+    cursor: grab;
+    transition: 0.5s;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(212, 17, 17);
+    box-shadow: rgb(79, 5, 5) -3px 3px 5px;
 }
