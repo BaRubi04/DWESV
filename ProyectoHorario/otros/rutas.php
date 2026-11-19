@@ -12,8 +12,9 @@
     define('PROCESO_ALTA_HORARIO','./index.php?controlador=C_Horario&metodo=datosHorarioAlta&iteradorDias=');
     define('PROCESO_VISUALIZAR_HORARIO','./index.php?controlador=C_Horario&metodo=visualizarHorario&curso=');
 
-    define('PROCESO_INICIO_SESION','./index.php?controlador=C_Usuario&metodo=inicioSesion');
-
+    define('PROCESO_FORMULARIO_INICIO_SESION','./index.php?controlador=C_Usuario&metodo=llevarIS');
+    define('PROCESO_INICIO_SESION','./index.php?controlador=C_Usuario&metodo=iniciarSesion');
+    
 // VISTAS
     define('VISTA_CONTROL_HORARIO','./vistas/horario/v_control_horario.php');
     define('VISTA_SELECCION_CURSO_VISUALIZAR_HORARIO','./vistas/horario/v_seleccion_curso_visualizar_horario.php');
@@ -32,6 +33,8 @@
     define('PROCESO_BORRAR_HORARIO','./index.php?controlador=C_Curso&metodo=borrarHorario');
     define('PROCESO_ANADIR_DIA','./index.php?controlador=C_Horario&metodo=anadirDia&iteradorDias=');
     define('PROCESO_MODIFICAR_HORA','./index.php?controlador=C_Horario&metodo=modificarHora');
+
+    define('PROCESO_DESTRUIR_SESION','./index.php?controlador=C_Usuario&metodo=destruirSesion');
 
 // MODELOS
     define('MODELO_CURSO','./modelos/M_Curso.php');
