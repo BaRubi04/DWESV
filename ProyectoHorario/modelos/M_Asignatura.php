@@ -5,8 +5,7 @@
         
         public function listadoAsignaturas() {
             $consulta = "select * from asignaturas";
-            $resultado = $this->conexion->query($consulta);
-            return $resultado->fetch_array();
+            return $this->conexion->query($consulta);
         }
 
         public function anadir() {
@@ -17,16 +16,15 @@
         public function consultaNombreColor() {
             $consulta = "select * from asignatura where idAsignatura = '".$_GET["curso"]."';";//tiene el id
             $resultado = $this->conexion->query($consulta); 
-            $fila = $resultado->fetch_array();
-            return $fila;
+            return $resultado->fetch_array();
         }
 
-        public function modificar(){
+        public function modificarAsignatura(){
             $consulta = "update asignaturas set nombre = '".$_POST["nombre"]."', color = '".$_POST["color"]."' where idAsignatura = ".$_POST["id"].";";
             $resultado = $this->conexion->query($consulta);
         }
 
-        public function borrar(){
+        public function borrarAsignatura(){
             $consulta = "delete from asignaturas where idAsignatura = '".$_GET["curso"]."';";//tiene el id
             $resultado = $this->conexion->query($consulta);
         }

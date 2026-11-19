@@ -10,8 +10,7 @@
         <h1>Listado asignaturas</h1>
         <div>
             <?php
-
-                foreach($filas as $fila){
+                foreach($datos as $fila){
                     echo '<p>'.$fila['idAsignatura'].', '.$fila['nombre'].', '.$fila['color'].'</p>';
                     echo '<a href="../otros/control.php?id='.$fila['idAsignatura'].'&opcion=borrar">B</a> - - -';
                     echo '<a href="../otros/control.php?id='.$fila['idAsignatura'].'&opcion=modificar">M</a>';

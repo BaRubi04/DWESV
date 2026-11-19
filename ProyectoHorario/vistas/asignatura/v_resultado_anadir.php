@@ -7,6 +7,6 @@
 </head>
 <body>
     <?php echo $mensaje; ?>
-    <a href="../../procesos/asignatura/p_asignatura_listado.php">VOLVER</a>
+    <a href="./index.php?controlador=C_Asignatura&metodo=listarAsignaturas">VOLVER</a>
 </body>
 </html>

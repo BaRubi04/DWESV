@@ -5,6 +5,11 @@
 */
 
 // PROCESOS CON VISTAS
+    define('PROCESO_LISTADO_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=listarAsignaturas');
+    define('PROCESO_ANADIR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=anadirAsignaturas');
+    define('PROCESO_BORRAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=borrarAsignaturas');
+    define('PROCESO_MODIFICAR_ASIGNATURAS','./index.php?controlador=C_Asignatura&metodo=modificarAsignaturas');
+
     define('PROCESO_CONTROL_HORARIO','./index.php?controlador=C_Horario&metodo=vistaControlHorario');
     define('PROCESO_SELECCION_CURSO_VISUALIZAR_HORARIO','./index.php?controlador=C_Curso&metodo=listadoCursosConHorario');
     define('PROCESO_SELECCION_CURSO_ALTA_HORARIO','./index.php?controlador=C_Curso&metodo=listadoCursosSinHorario');
