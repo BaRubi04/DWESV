@@ -11,6 +11,14 @@
                 $_SESSION["usuario"] = $fila["nombre"];
             }
         }
-
+        public function iniciarSesionPDO(){
+            $consultaPDO = "select * from usuarios where nombre = :nombre and cont = :cont;";
+            $resultadoPDO = $conexionPDO->prepare($consultaPDO);
+            if($resultadoPDO->execute(['nombre' => $_POST["nombre"], 'cont' => $_POST["pw"]])){
+                $fila = $resultadoPDO->fetchAll(PDO::FETCH_ASSOC);
+                session_start();
+                $_SESSION["usuario"] = $fila["nombre"];
+            }
+        }
     }
 ?>
