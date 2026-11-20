@@ -14,7 +14,7 @@
     </nav>
     <h2><?php if(isset($_SESSION["usuario"])) echo 'Inición sesiada: <i><u>'.$_SESSION["usuario"].'</u></i>'; ?></h2>
     <h1>INICIO DE SESIÓN</h1>
-    <form action="<?php PROCESO_INICIO_SESION ?>" class="formMediano" method="POST">
+    <form action="<?php echo PROCESO_INICIO_SESION; ?>" class="formMediano" method="POST">
         <label class="labelsFlotantes" for="nombre">Usuario: </label><input class="inputForm" type="text" name="nombre" minlength="5" maxlength="20" required pattern="[A-Za-z0-9]+" title="Entre 5 y 20 caracteres alfanuméricos">
         <!--<label class="labelsFlotantes" for="pw">Contraseña: </label><input class="inputForm" type="password" name="pw" minlength="5" maxlength="20" required pattern="[A-Za-z0-9]+" title="Entre 5 y 20 caracteres alfanuméricos">-->
         <label class="labelsFlotantes" for="pw">Contraseña: </label><input class="inputForm" type="text" name="pw">
