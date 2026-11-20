@@ -14,7 +14,7 @@
     </nav>
     <div class="cajaMolona">
         <h1><?php if($_GET["resultado"]) echo 'Modificación exitosa'; else echo 'Modificación fallida'; ?></h1>
-        <a href="<?php echo PROCESO_LISTADO_ASIGNATURAS; ?>">VOLVER</a>
+        <a class="botonMolon" href="<?php echo PROCESO_LISTADO_ASIGNATURAS; ?>">VOLVER</a>
     </div>
 </body>
 </html>
